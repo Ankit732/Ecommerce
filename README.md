@@ -15,15 +15,15 @@ Cart:
 
 Allows users to view and manage the items added to their cart.
 Displays the total pricing and quantity of items in the cart.
-
 Filtering: Users can filter products on the home page by price, sorting from low to high or high to low.
-Search:
+Search:Includes a search bar for users to search for specific products.
 
-**Includes a search bar for users to search for specific products.**
 **Tech Stack**
 React: A JavaScript library for building user interfaces.
 Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 [https://dummyjson.com/docs/products](url): Used for fetching product data.
+
+
 Getting Started
 Follow these steps to get the project up and running on your local machine:
 
