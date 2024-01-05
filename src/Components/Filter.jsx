@@ -17,7 +17,7 @@ function Filter() {
 
   return (
     <select
-      className="appearance-none bg-slate-50 border border-gray-300 text-black py-1 px-2 pr-4 rounded-md leading-tight focus:outline-none focus:border-blue-500"
+      className="appearance-none bg-slate-50 border border-gray-300 text-black py-1 px-2 pr-4 rounded-md leading-tight focus:outline-none focus:border-blue-500 md:py-2 md:px-4 md:pr-8"
       onChange={handleChange}
     >
       <option className="text-black" value="" disabled selected>
