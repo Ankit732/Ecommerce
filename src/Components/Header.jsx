@@ -19,9 +19,9 @@ function Header() {
 
       <div className='flex items-center gap-4'>
         <Link to='/Cart' className='relative'>
-          <button className='bg-blue-500 text-white px-4 py-2 rounded-full'>
-            Cart ({cartData.length})
-          </button>
+           <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
+          Cart ({cartData.length})
+        </button>
         </Link>
 
         <SearchBar />
