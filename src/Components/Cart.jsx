@@ -6,7 +6,6 @@ function Cart() {
   const [total, setTotal] = useState(0);
 
   useEffect(() => {
-   
     let newTotal = 0;
     cartData.forEach((element) => {
       newTotal += element.price;
@@ -16,7 +15,13 @@ function Cart() {
 
   return (
     <div className="bg-gray-100 p-4 rounded-md shadow-md">
-      <h3 className="text-xl font-bold mb-4">Your total is: {total}</h3>
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-xl font-bold">Your total is: {total}</h3>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-md hidden md:inline-block">
+          Cart ({cartData.length})
+        </button>
+      </div>
+
       {cartData?.length ? (
         <>
           {cartData.map((item) => (
