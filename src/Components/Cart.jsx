@@ -17,9 +17,7 @@ function Cart() {
     <div className="bg-gray-100 p-4 rounded-md shadow-md">
       <div className="flex flex-col md:flex-row items-center justify-between mb-4">
         <h3 className="text-xl font-bold mb-2 md:mb-0">Your total is: {total}</h3>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
-          Cart ({cartData.length})
-        </button>
+       
       </div>
 
       {cartData?.length ? (
