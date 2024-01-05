@@ -17,17 +17,17 @@ function Filter() {
 
   return (
     <select
-      className="appearance-none bg-slate-50 border border-gray-300 text-black py-2 px-4 pr-8 rounded-md leading-tight focus:outline-none focus:border-blue-500 md:w-1/2 lg:w-1/3 xl:w-1/4"
+      className="appearance-none bg-slate-50 border border-gray-300 text-black py-1 px-2 pr-4 rounded-md leading-tight focus:outline-none focus:border-blue-500"
       onChange={handleChange}
     >
       <option className="text-black" value="" disabled selected>
         Sort
       </option>
       <option className="text-black" value="desc">
-        Price High to Low
+        High to Low
       </option>
       <option className="text-black" value="asc">
-        Price Low to High
+        Low to High
       </option>
     </select>
   );
