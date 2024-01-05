@@ -1,4 +1,4 @@
-                                                                    **  **E-Commerce React App with Tailwind CSS****
+  **E-Commerce React App with Tailwind CSS**
 
 
 **Project Overview**
