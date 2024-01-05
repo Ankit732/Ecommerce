@@ -1,4 +1,4 @@
-**E-Commerce React App with Tailwind CSS**
+                                                                    **  **E-Commerce React App with Tailwind CSS****
 
 
 **Project Overview**
@@ -15,9 +15,8 @@ Cart:
 
 Allows users to view and manage the items added to their cart.
 Displays the total pricing and quantity of items in the cart.
-Filtering:
 
-Users can filter products on the home page by price, sorting from low to high or high to low.
+Filtering: Users can filter products on the home page by price, sorting from low to high or high to low.
 Search:
 
 **Includes a search bar for users to search for specific products.**
